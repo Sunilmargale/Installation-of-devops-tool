@@ -64,3 +64,8 @@ kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
 ```bash
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.49.0/deploy/static/provider/baremetal/deploy.yaml
 ```
+https://github.com/Shopify/Kubeaudit/releases
+wget https://github.com/Shopify/kubeaudit/releases/download/v0.22.1/kubeaudit_0.22.1_linux_amd64.tar.gz
+tar -xvzf tar -xvzf kubeaudit_0.22.1_linux_amd64.tar.gz
+sudo mv Kubeaudit /usr/local/bin 
+Kubeaudit all
