@@ -37,11 +37,9 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 sudo docker run hello-world
 
-3)sonarqube installation using docker container
 
-docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 
-4)nexus installation using docker conatiner
+3)nexus installation using docker conatiner
 
 docker run -d --name Nexus -p 8081:8081 sonatype/nexus3
 
