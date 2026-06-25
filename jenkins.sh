@@ -43,3 +43,7 @@ sudo apt-get install jenkins -y
 sudo systemctl start jenkins.service
 
 sudo systemctl status jenkins
+
+
+docker run -d --name jenkins -p 8080:8080 jenkins/jenkins:lts
+docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
